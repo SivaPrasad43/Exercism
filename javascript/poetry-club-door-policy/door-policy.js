@@ -2,6 +2,7 @@
 function trimWord(string) {
   return string.trim()
 }
+
 export function frontDoorResponse(line) {
   return line.charAt(0)
 }
