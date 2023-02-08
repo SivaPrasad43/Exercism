@@ -8,7 +8,6 @@ export function remainingMinutesInOven(actualMinutesInOven) {
 export function preparationTimeInMinutes(numberOfLayers) {
   return numberOfLayers*PREPARATION_MINUTES_PER_LAYER
 }
-
 export function totalTimeInMinutes(numberOfLayers, actualMinutesInOven) {
   return actualMinutesInOven+preparationTimeInMinutes(numberOfLayers)
 }
