@@ -19,7 +19,7 @@ export function birdsInWeek(birdsPerDay, week) {
 
 export function fixBirdCountLog(birdsPerDay) {
   for(let i=0;i<birdsPerDay.length;i++) {
-    if(i%2==0) {
+    if(i%2===0) {
       birdsPerDay[i] = birdsPerDay[i] + 1
     }
   }
