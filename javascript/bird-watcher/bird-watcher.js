@@ -25,4 +25,3 @@ export function fixBirdCountLog(birdsPerDay) {
   }
   return birdsPerDay
 }
-EX
